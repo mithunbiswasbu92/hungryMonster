@@ -1,0 +1,49 @@
+#mealItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+
+}
+.allMeals {
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    background-color: #f3f3f3;
+
+}
+.mealImage {
+    width: 280px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#mealItemsInfo {
+    display:block;
+    margin: auto;
+    border: goldenrod;
+    border-radius: 20px;
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#search {
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+#searchArea {
+    padding: 20px;
+    background-color: #eceaea;
+    border: none;
+    width: 300px;
+    font-size: large;
+}
+#searchBtn {
+    padding: 20px;
+    font-size: large;
+    border: none;
+    color: white;
+    background-color: tomato;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
